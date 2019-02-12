@@ -1,0 +1,100 @@
+#back{
+    background-color: rgb(122, 122, 122);
+}
+.upper{
+    position: relative;
+    text-align: center;
+    min-height: 100px;
+    height: 100%;
+    
+}
+#downer{
+    margin-left: 1.65%;
+    margin-right: 1.65%;
+    border: 2px solid darkgrey;
+    min-height: 400px;
+    height: 100%;
+    background-color: black;
+}
+.theman{
+    vertical-align: top;
+    overflow: hidden;
+    display: inline-block;
+    margin: 0 auto;
+    height: 100%;
+    
+    width: 25%
+}
+.side{
+    vertical-align: top;
+    background-color: rgb(51, 44, 44);
+    border: 2px solid darkgrey;
+    display: inline-block;
+    height: 100%;
+    width: 35.25%;
+}
+.calVal {
+    display: inline-block;
+    float: left;
+    margin: 0px;
+    padding: 2%;
+    width: 25%;
+    color: red;
+    background-color: lightgreen;
+    border-top-color: rgb(192, 240, 192);
+    border-left-color: rgb(192,240,192);
+    border-right-color: rgb(142,230,142);
+    border-bottom-color: rgb(142, 230, 142);
+    
+    font-size: 150%;
+}
+.operation {
+    display: inline-block;
+    float: left;
+    margin: 0px;
+    padding: 2%;
+    width: 25%;
+    color: blue;
+    background-color: rgb(186, 238, 144);
+    font-size: 150%;
+}
+
+.res {
+    display: inline-block;
+    float: left;
+    margin: 0px;
+    padding: 2%;
+    width: 25%;
+    color: blue;
+    font-size: 150%;
+    background-color: rgb(186,238,144);
+}
+
+#resfield{
+    width: 99%;
+    text-align: right;
+    font-size: 150%;
+    padding-top:2%;
+    padding-bottom: 2%;
+    border-color: black;
+    border-left-color: white;
+    border-top-color: white;
+    border-right-color: darkgray
+    
+}
+#curExpr{
+    width: 99%;
+    text-align: right;
+    font-size: 100%;
+    padding-top:2%;
+    padding-bottom: 2%;
+    background-color: lightgray;
+    border-color: black;
+    border-left-color: white;
+    border-top-color: white;
+    border-right-color: darkgrey;
+    
+}
+#scrib{
+    color: white;
+}
